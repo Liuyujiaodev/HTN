@@ -1,0 +1,10 @@
+default_platform(:ios)
+
+platform :ios do
+  desc "Description of what the lane does"
+  lane :development do
+    # add actions here: https://docs.fastlane.tools/actions
+	build_app(export_method: "development")
+	pgyer(api_key: "551bf0be641411ae6c65c2cb31e49680",user_key: "7217183b4582eed97004aa6d2e152d23")
+  end
+end

@@ -1,0 +1,23 @@
+platform :ios, '9.0'
+
+target 'SeaNaughty' do
+    pod 'SVProgressHUD'
+    pod 'MJRefresh'
+    pod 'YYModel'
+    pod 'YYText'
+    pod 'AFNetworking'
+    pod 'SDWebImage'
+    pod 'IQKeyboardManager'
+    pod 'FMDB'
+    pod 'DZNEmptyDataSet'
+    pod 'Masonry'
+    pod 'SDCycleScrollView'
+    pod 'PYSearch'
+    pod 'MBProgressHUD'
+    pod 'YYCache'
+    pod 'YYImage'
+    pod 'Bugly'
+    pod 'JPush'
+    pod 'UMCCommon'
+    pod 'UMCAnalytics'
+end
